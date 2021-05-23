@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\adjacencyList.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\adjacencyList.dir/objects.a @CMakeFiles\adjacencyList.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\adjacencyList.dir/objects.a -Wl,--no-whole-archive  -o adjacencyList.exe -Wl,--out-implib,libadjacencyList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\adjacencyList.dir\linklibs.rsp
